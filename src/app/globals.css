@@ -1,0 +1,124 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+
+  --font-vazir: "Vazirmatn", sans-serif;
+  --font-vazirFD: "VazirmatnFD", "Vazirmatn", sans-serif;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+
+  /* colors */
+  --color-black1: #262626;
+  --color-black2: #4d4d4d;
+  --color-LightGray: #d9d9d9;
+  --color-Gray-base300: #959595;
+  --color-MediumGray: #999999;
+  --color-blue1: #224cdf;
+  --color-Bright1: #f6f6f6;
+  --color-BrightGray: #e9e9e9;
+  --color-Neutral-base-500: #565656;
+  --color-Primary-50: #ebefff;
+  --color-Neutral-background-100: #fcfbfa;
+
+  --shadow-card1: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  --shadow-card2:
+    rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  --shadow-card3:
+    rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+  --shadow-card4: rgba(0, 0, 0, 0.15) 0px -25px 20px -20px;
+
+  --shadow-noRight: rgba(0, 0, 0, 0.19) -3px 0px 0px;
+
+  --shadow-noleft-noup:
+    rgba(0, 0, 0, 0.19) 0px 3px 0px, rgba(0, 0, 0, 0.19) 3px 0px 0px;
+  --shadow-onBottom: rgba(0, 0, 0, 0.19) 0px 3px 0px;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: var(--font-vazir, sans-serif);
+}
+
+.fd-text {
+  font-family: var(--font-vazirFD, sans-serif);
+}
+
+.dir-ltr {
+  direction: ltr;
+}
+
+.dir-rtl {
+  direction: rtl;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+@keyframes infinite-scroll {
+  0% {
+    transform: translateX(50%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-infinite-scroll {
+  animation: infinite-scroll 10s linear infinite;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #00000000;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #0000004b;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #0000007e;
+  border-radius: 10px;
+}
+
+#__next-route-announcer,
+.nextjs-portal {
+  display: none !important;
+}
+
+@media (min-width: 800px) {
+  .h-800px {
+    height: 400px;
+  }
+}
+
+.marquee-container {
+  width: 300px;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.marquee-track {
+  display: flex;
+  width: max-content;
+  animation: marquee 10s linear infinite;
+}
+
+@keyframes marquee {
+  0%   { transform: translateX(0); }
+  50%   { transform: translateX(0); }
+  100% { transform: translateX(102%); }
+}

@@ -1,0 +1,966 @@
+{
+  "1001": {
+    "en": "USER_NOT_FOUND_1001",
+    "fa": "حساب کاربری مورد نظر یافت نشد"
+  },
+  "1002": {
+    "en": "AN_UNEXPECTED_ERROR_OCCURRED_1002",
+    "fa": "خطای غیرمنتظره رخ داد"
+  },
+  "1003": {
+    "en": "INVALID_INPUT_DATA_1003",
+    "fa": "داده‌های ورودی نامعتبر است"
+  },
+  "1004": {
+    "en": "DATABASE_ERROR_1004",
+    "fa": "خطایی از سمت پایگاه داده است"
+  },
+  "1005": {
+    "en": "USER_UN_AUTHENTICATED_1005",
+    "fa": "کاربر احراز هویت نشده است"
+  },
+  "1006": {
+    "en": "RETRIEVED_SUCCESSFULLY_1006",
+    "fa": "با موفقیت دریافت شد"
+  },
+  "1007": {
+    "en": "VALIDATION_ERROR_1007",
+    "fa": "مشکل در اعتبارسنجی"
+  },
+  "1008": {
+    "en": "INTERNAL_SERVER_ERROR_1008",
+    "fa": "خطابی داخلی سرور رخ داده است"
+  },
+  "3314": {
+    "en": "JWTCONFIG_ACCESSTOKENEXPIRATIONINDAYS_MUST_BE_VALID_INTEGER_7314",
+    "fa": "مقدار انقضا باید یک عدد صحیح معتبر باشد."
+  },
+  "7001": {
+    "en": "ACCOUNT_ALREADY_CREATED_FOR_PHONE_NUMBER_7001",
+    "fa": "قبلا برای این شماره تلفن حساب کاربری ساخته شده است"
+  },
+  "7002": {
+    "en": "EXCEEDED_MAXIMUM_OTP_ATTEMPTS_7002",
+    "fa": "تعداد تلاش‌های مجاز شما به پایان رسیده است. لطفاً یک رمز یک‌بار مصرف جدید درخواست کنید"
+  },
+  "7003": {
+    "en": "USER_REGISTERED_SUCCESSFULLY_7003",
+    "fa": "ثبت نام با موفقیت انجام گردید"
+  },
+  "7004": {
+    "en": "USER_REGISTRATION_NOT_SUCCESSFUL_7004",
+    "fa": "ثبت نام با شماره تلفن حساب کاربری مورد نظر موفقیت آمیز نبود"
+  },
+  "7005": {
+    "en": "REGISTRATION_ENCOUNTERED_ERROR_7005",
+    "fa": "ثبت نام با خطا مواجه شد. لطفا بعدا دوباره تلاش کنید"
+  },
+  "7006": {
+    "en": "ERROR_DURING_USER_VALIDATION_7006",
+    "fa": "خطایی هنگام اعتبارسنجی کاربر رخ داده است."
+  },
+  "7007": {
+    "en": "UNEXPECTED_ERROR_DURING_USER_REGISTRATION_7007",
+    "fa": "یک خطای غیر منتظره هنگام ثبت نام کاربر رخ داده است"
+  },
+  "7008": {
+    "en": "USER_UPDATED_7008",
+    "fa": "مشخصات کاربر مورد نظر بروزرسانی شد."
+  },
+  "7009": {
+    "en": "PHONE_NUMBER_ALREADY_EXIST_7009",
+    "fa": "شماره تلفن مورد نظر در حال حاضر وجود دارد."
+  },
+  "7010": {
+    "en": "USER_BLOCKED_SUCCESSFULLY_7010",
+    "fa": "حساب کاریری با موفقیت مسدود شد."
+  },
+  "7011": {
+    "en": "USER_IS_BLOCKED_7011",
+    "fa": "حساب کاریری مسدود است."
+  },
+  "7012": {
+    "en": "USERS_SUCCESSFULLY_RECEIVED_7012",
+    "fa": "لیست کاربرات با موفقیت دریافت شد."
+  },
+  "7013": {
+    "en": "USER_WAS_BLOCKED_7013",
+    "fa": "کاربر مسدود شده بود."
+  },
+  "7014": {
+    "en": "USER_HAS_BEEN_UNBLOCKED_7014",
+    "fa": "کاربر از حالت مسدود خارج شد.."
+  },
+  "7015": {
+    "en": "PASSWORD_MUST_BE_AT_LEAST_8_CHARACTERS_LONG_7015",
+    "fa": "رمز عبور باید حداقل ۸ کاراکتر داشته باشد.."
+  },
+  "7016": {
+    "en": "PASSWORD_MUST_CONTAIN_AT_LEAST_ONE_NUMBER_7016",
+    "fa": "رمز عبور باید حداقل شامل یک عدد باشد."
+  },
+  "7017": {
+    "en": "ERROR_SETTING_OTP_7017",
+    "fa": "خطا هنگام تنظیم کردن کد ارسالی رخ داده است."
+  },
+  "7018": {
+    "en": "ERROR_RETRIEVING_CURRENT_USER_7018",
+    "fa": "خطایی هنگام دریافت کاربر مورد نظر رخ داده است."
+  },
+  "7019": {
+    "en": "PLEASE_LOGIN_WITH_CONTACT_NUMBER_ON_PREVIOUS_PAGE_7019",
+    "fa": "لطفا با شماره تماس در صفحه قبلی وارد شوید."
+  },
+  "7020": {
+    "en": "PRODUCT_IS_ALREADY_IN_FAVORITE_7020",
+    "fa": "محصول مورد نظر در لیست علاقه مندی ها وجود دارد"
+  },
+  "7021": {
+    "en": "PRODUCT_IS_NOT_IN_FAVORITE_7021",
+    "fa": "محصول مورد نظر در لیست علاقه مندی ها وجود ندارد"
+  },
+  "7022": {
+    "en": "USER_ID_OR_PHON_NUMBER_NOT_PROVIDED_7022",
+    "fa": "شناسه کاربر یا شماره تلفن ارائه نشده است"
+  },
+  "7023": {
+    "en": "PHONE_NUMBER_LIST_IS_EMPTY_7023",
+    "fa": "لیست شماره های تلفن خالی است"
+  },
+  "7024": {
+    "en": "FAILED_TO_UPDATE_PASSWORD_AND_PHONE_NUMBER_7024",
+    "fa": "به روز رسانی رمز عبور با شکست مواجه شد"
+  },
+  "7025": {
+    "en": "USERID_OR_PHONENUMBER_MUST_BE_PROVIDED_7025",
+    "fa": "شناسه کاربر یا شماره تلفن باید ارائه شود"
+  },
+  "7101": {
+    "en": "INVALID_PHONE_NUMBER_OR_PASSWORD_7101",
+    "fa": "شماره تلفن یا رمز عبور اشتباه می باشد"
+  },
+  "7102": {
+    "en": "LOGIN_SUCCESSFUL_7102",
+    "fa": "ورود با موفقیت انجام گردید"
+  },
+  "7201": {
+    "en": "OTP_GENERATED_7201",
+    "fa": "کد یکبار مصرف برای شماره تلفن ارسال شده است"
+  },
+  "7202": {
+    "en": "INVALID_OTP_7202",
+    "fa": "کد وارد شده معتبر نمی باشد"
+  },
+  "7203": {
+    "en": "FAILED_TO_GET_TOKEN_FROM_SMS_API_7203",
+    "fa": "مشکلی در ارتباط با سرویس پیامک پیش آمده. لطفاً دوباره امتحان کنید."
+  },
+  "7204": {
+    "en": "FAILED_TO_SEND_OTP_SMS_7204",
+    "fa": "خطا در فرستادن پیامک کد یکبار مصرف"
+  },
+  "7205": {
+    "en": "FAILED_TO_GET_TOKEN_KEY_7205",
+    "fa": "خطا در گرفتن کلید توکن"
+  },
+  "7206": {
+    "en": "UNEXPECTED_ERROR_WHILE_SENDING_SMS_7206",
+    "fa": "هنگام ارسال پیامک یک خطای غیر منتظره روی داد"
+  },
+  "7207": {
+    "en": "FAILED_TO_CONNECT_TO_SMS_API_7207",
+    "fa": "در حال حاضر نمی توانیم به سرویس پیامک وصل بشیم. کمی بعد دوباره امتحان کنید"
+  },
+  "7208": {
+    "en": "INVALID_OR_EXPIRED_SESSION_KEY_7208",
+    "fa": "دسترسی شما معتبر نیست یا مهلت آن به پایان رسیده است. لطفاً دوباره وارد شوید."
+  },
+  "7209": {
+    "en": "INVALID_OR_EXPIRED_SESSION_KEY_7209",
+    "fa": "دسترسی شما معتبر نیست یا یافت نشد. لطفاً دوباره وارد شوید."
+  },
+  "7301": {
+    "en": "INVALID_TOKEN_OR_REFRESH_TOKEN_7301",
+    "fa": "دسترسی شما منقضی شده یا نامعتبر است. لطفاً دوباره وارد شوید."
+  },
+  "7302": {
+    "en": "INVALID_USER_ID_IN_TOKEN_7302",
+    "fa": "توکن ارسالی حاوی شناسه کاربر نامعتبر است"
+  },
+  "7303": {
+    "en": "INVALID_REFRESH_TOKEN_7303",
+    "fa": "توکن تمدید دسترسی معتبر نیست، لطفاً دوباره وارد شوید"
+  },
+  "7304": {
+    "en": "TOKEN_REFRESHED_SUCCESSFULLY_7304",
+    "fa": "توکن دسترسی با موفقیت تمدید شد."
+  },
+  "7305": {
+    "en": "TOKEN_GENERATED_SUCCESSFULLY_7305",
+    "fa": "توکن با موفقیت ایجاد شد"
+  },
+  "7306": {
+    "en": "ERROR_GENERATING_TOKEN_7306",
+    "fa": "خطای غیر منتظره ای هنگام ایجاد توکن رخ داده است"
+  },
+  "7307": {
+    "en": "TOKEN_VALIDATED_SUCCESSFULLY_7307",
+    "fa": "اعتبار سنجی توکن با موفقیت انجام شد"
+  },
+  "7308": {
+    "en": "ERROR_VALIDATING_TOKEN_7308",
+    "fa": "یک خطای غیرمنتظره هنگام اعتبارسنجی توکن رخ داده است"
+  },
+  "7309": {
+    "en": "JWT_CONFIG_EXPIRATION_IN_DAYS_MUST_BE_VALID_INTEGER_7309",
+    "fa": "مقدار JWTconfig:ExpirationInDays باید یک عدد صحیح معتبر باشد."
+  },
+  "7310": {
+    "en": "JWT_CONFIG_REFRESH_TOKEN_EXPIRATION_IN_DAYS_MUST_BE_VALID_INTEGER_7310",
+    "fa": "مقدار JWTconfig:RefreshTokenExpirationInDays باید یک عدد صحیح معتبر باشد."
+  },
+  "7311": {
+    "en": "JWT_CONFIG_SECRET_MISSING_OR_EMPTY_7311",
+    "fa": "رمز JWT موجود نیست یا خالی است"
+  },
+  "7312": {
+    "en": "JWT_CONFIG_SECRET_REQUIRED_FOR_HASHING_7312",
+    "fa": "رمز JWT برای عملیات هش کردن الزامی است"
+  },
+  "7313": {
+    "en": "INVALID_EMAIL_OR_PASSWORD_7313",
+    "fa": "ایمیل یا رمز نامعتبر."
+  },
+  "7401": {
+    "en": "PASSWORD_COMPLEXITY_REQUIREMENTS_7401",
+    "fa": "رمز عبور می بایست حداقل 8 حرف داشته باشد و شامل حروف بزرگ، کوچک و عدد باشد. کراکترهای خاص ($) اختیاری است"
+  },
+  "7402": {
+    "en": "PASSWORD_UPDATED_SUCCESSFULLY_7402",
+    "fa": "رمز عبور با موفقیت تغییر پیدا کرد."
+  },
+  "7403": {
+    "en": "PHONE_NUMBER_AND_PASSWORD_UPDATED_SUCCESSFULLY_7403",
+    "fa": "شماره تلفن و رمز عبور با موفقیت تغییر پیدا کرد."
+  },
+  "7501": {
+    "en": "PHONE_NUMBER_DOES_NOT_EXIST_7501",
+    "fa": "حساب کاربری با این شماره تلفن وجود ندارد"
+  },
+  "7502": {
+    "en": "PASSWORD_HAS_BEEN_RESET_SUCCESSFULLY_7502",
+    "fa": "رمز عبور با موفقیت تغییر پیدا کرد"
+  },
+  "7503": {
+    "en": "FAILED_TO_RESET_PASSWORD_7503",
+    "fa": "تغییر رمز عبور ناموفق بود."
+  },
+  "7601": {
+    "en": "USER_PROFILE_UPDATED_SUCCESSFULLY_7601",
+    "fa": "نمایه با موفقیت بروز رسانی شد"
+  },
+  "7701": {
+    "en": "TICKET_CREATED_SUCCESSFULLY_7701",
+    "fa": "تیکت با موفقیت ساخته شد"
+  },
+  "7702": {
+    "en": "TICKET_DELETED_SUCCESSFULLY_7702",
+    "fa": "تیکت با موفقیت حذف شد"
+  },
+  "7703": {
+    "en": "TICKET_CLOSED_SUCCESSFULLY_7703",
+    "fa": "تیکت با موفقیت بسته شد"
+  },
+  "7704": {
+    "en": "NO_TICKET_FOUND_FOR_USER_7704",
+    "fa": "تیکت برای حساب کاربری مورد نظر یافت نشد"
+  },
+  "7705": {
+    "en": "USER_TICKET_RETRIEVED_SUCCESSFULLY_7705",
+    "fa": "تیک های حساب کاربری مورد نظر دریافت شد"
+  },
+  "7706": {
+    "en": "TICKET_RETRIEVED_SUCCESSFULLY_7706",
+    "fa": "تیک های  مورد نظر دریافت شد"
+  },
+  "7707": {
+    "en": "NO_TICKET_FOUND_7707",
+    "fa": "تیکت یافت نشد"
+  },
+  "7708": {
+    "en": "CANNOT_DELETE_TICKET_AFTER_ADMIN_HAS_RESPONDED_7708",
+    "fa": "امکان حذف تیکت پس از پاسخگویی ادمین وجود ندارد"
+  },
+  "7709": {
+    "en": "TICKET_ALREADY_CLOSED_7709",
+    "fa": "تیکت قبلاً بسته شده است"
+  },
+  "7801": {
+    "en": "DATABASE_SEEDING_COMPLETED_SUCCESSFULLY_7801",
+    "fa": "وارد کردن داده‌های اولیه پایگاه داده با موفقیت انجام شد."
+  },
+  "7901": {
+    "en": "PRODUCT_ADDED_SUCCESSFULLY_7901",
+    "fa": "محصول مورد نظر با موفقیت اضافه شد"
+  },
+  "7902": {
+    "en": "ERROR_ADDING_PRODUCT_7902",
+    "fa": "هنگام افزودن محصول خطایی روی داد"
+  },
+  "7903": {
+    "en": "YOU_HAVENT_PURCHASE_THIS_PRODUCT_YET_7903",
+    "fa": "شما هنوز محصول مورد نظر را خریداری نکرده اید"
+  },
+  "7904": {
+    "en": "PRODUCT_DETAIL_RETRIEVED_SUCCESSFULLY_7904",
+    "fa": "مشخصات محصول مورد نظر با موفقیت دریافت شد"
+  },
+  "7905": {
+    "en": "PRODUCT_NOT_FOUND_7905",
+    "fa": "محصولی پیدا نشد"
+  },
+  "7907": {
+    "en": "PURCHASED_PRODUCT_RETRIEVED_SUCCESSFULLY_7907",
+    "fa": "محصولات خریداری شده با موفقیت دریافت شد"
+  },
+  "7908": {
+    "en": "FTP_UPLOAD_FAILED_7908",
+    "fa": "بارگذاری فایل از طریق FTP با خطا مواجه شد."
+  },
+  "7909": {
+    "en": "IMAGE_SIZE_MUST_BE_LESS_THAN_500KB_7909",
+    "fa": "حجم عکس می بایست زیر 500 کیلوبایت باشد"
+  },
+  "7910": {
+    "en": "IMAGE_IS_REQUIRED_7910",
+    "fa": "فیلد عکس الزامیست"
+  },
+  "7911": {
+    "en": "THUMBNAIL_IS_REQUIRED_7911",
+    "fa": "فیلد کاور ویدیو الزامیست"
+  },
+  "7912": {
+    "en": "FILE_IS_REQUIRED_7912",
+    "fa": "فیلد فایل الزامیست"
+  },
+  "7913": {
+    "en": "PRODUCT_ALREADY_PURCHASED_7913",
+    "fa": "شما یک محصول دارید که قبلا خریداری شده است."
+  },
+  "7914": {
+    "en": "THUMBNAIL_PICTURE_NOT_FOUND_7914",
+    "fa": "عکس کاور مورد نظر یافت نشد."
+  },
+  "7915": {
+    "en": "IMAGE_PICTURE_NOT_FOUND_7915",
+    "fa": "عکس انتخاب شده یافت نشد."
+  },
+  "7916": {
+    "en": "PRODUCT_DELETED_SUCCESSFULLY_7916",
+    "fa": "محصول مورد نظر با موفقیت حذف شد."
+  },
+  "7917": {
+    "en": "PRODUCT_IS_BOUGHT_7917",
+    "fa": "محصول خریداری شده است."
+  },
+  "7918": {
+    "en": "ALL_PRODUCTS_RETRIEVED_SUCCESSFULLY_7918",
+    "fa": "تمامی محصولات دریافت شد."
+  },
+  "7919": {
+    "en": "PRODUCT_UPDATED_7919",
+    "fa": "محصول مورد نظر بروزرسانی شد."
+  },
+  "7920": {
+    "en": "ERROR_UPLOADING_FILE_TO_FTP_7920",
+    "fa": "هنگام بارگذاری فایل خطا رخ داده است."
+  },
+  "7921": {
+    "en": "PRODUCT_IS_NOT_PURCHASED_7921",
+    "fa": "محصول مورد نظر خریداری نشده است."
+  },
+  "7922": {
+    "en": "THERE_IS_PURCHASED_VIDEO_IN_PRODUCT_7922",
+    "fa": "این محصول خریداری شده است. نمی‌توانید از آن محتوایی کم کنید"
+  },
+  "7923": {
+    "en": "THERE_IS_PURCHASED_WEBINAR_IN_PRODUCT_7923",
+    "fa": "این محصول خریداری شده است. نمی‌توانید از آن محتوایی کم کنید"
+  },
+  "7924": {
+    "en": "THERE_IS_PURCHASED_FILE_IN_PRODUCT_7924",
+    "fa": "این محصول خریداری شده است. نمی‌توانید از آن محتوایی کم کنید"
+  },
+  "8001": {
+    "en": "INVALID_OR_EXPIRED_DOWNLOAD_LINK_8001",
+    "fa": "لینک دانلود برای مسیر مورد نظر نامعتبر یا منقضی شده است."
+  },
+  "8002": {
+    "en": "FILE_NOT_FOUND_8002",
+    "fa": "فایل مورد نظر یافت نشد"
+  },
+  "8003": {
+    "en": "NO_FILE_PATH_FOUND_FOR_FILE_META_DATA_8003",
+    "fa": "مسیر فایل مربوط به اطلاعات فایل پیدا نشد."
+  },
+  "8004": {
+    "en": "NO_VALID_FILE_PATH_FOUND_8004",
+    "fa": "هیچ مسیر فایل معتبری یافت نشد"
+  },
+  "8005": {
+    "en": "DOWNLOAD_URL_GENERATED_SUCCESSFULLY_8005",
+    "fa": "لینک دانلود با موفقیت ایجاد شد"
+  },
+  "8006": {
+    "en": "FILE_PATH_FOUND_SUCCESSFUL_8006",
+    "fa": "مسیر فایل مورد نظر با موفقیت یافت شد"
+  },
+  "8007": {
+    "en": "FILE_UPDATED_SUCCESSFULLY_8007",
+    "fa": "فایل مورد نظر با موفقیت بروزرسانی شد."
+  },
+  "8008": {
+    "en": "FILE_ALREADY_IN_USE_IN_PRODUCT_8008",
+    "fa": "فایل انتخاب شده در یک محصول استفاده شده است."
+  },
+  "8009": {
+    "en": "FILE_DELETED_SUCCESSFULLY_8009",
+    "fa": "فایل مورد نظر با موقیت حذف شد."
+  },
+  "8010": {
+    "en": "NO_FILE_IDS_PROVIDED_8010",
+    "fa": "فیلد ایدی فایل خالی است."
+  },
+  "8011": {
+    "en": "FILE_NOT_FOUND_OR_INVALID_HASH_8011",
+    "fa": "فایل پیدا نشد یا رمزنگاری نامعتبر است."
+  },
+  "8012": {
+    "en": "FILE_STREAM_IS_EMPTY_8012",
+    "fa": "جریان فایل خالی است."
+  },
+  "8013": {
+    "en": "WEBINAR_NOT_FOUND_8013",
+    "fa": "وبینار یافت نشد."
+  },
+  "8014": {
+    "en": "ERROR_ADDING_FILE_8014",
+    "fa": "یک خطای غیر منتظره هنگام افزودن فایل رخ داده است."
+  },
+  "8015": {
+    "en": "NAME_CAN_NOT_BE_NULL_8015",
+    "fa": "نام نمی تواند خالی باشد."
+  },
+  "8101": {
+    "en": "PAYMENT_CREATED_8101",
+    "fa": "درگاه پرداختی مورد نظر ساخته شد"
+  },
+  "8103": {
+    "en": "PAYMENT_DOES_NOT_EXIST_8103",
+    "fa": "درگاه پرداختی مورد نظر وجود ندارد"
+  },
+  "8104": {
+    "en": "ORDER_IS_ALREADY_PAID_8104",
+    "fa": "سفارش مورد نظر قبلا پرداخت شده"
+  },
+  "8105": {
+    "en": "ERROR_IN_PAYMENT_GATEWAY_8105",
+    "fa": "خطا در درگاه پرداختی رخ داده است"
+  },
+  "8106": {
+    "en": "PRODUCT_WITH_THIS_NAME_ALREADY_EXISTS_8106",
+    "fa": "محصول با این نام وجود دارد"
+  },
+  "8107": {
+    "en": "ERROR_ADDING_PRODUCT_8107",
+    "fa": "هنگام افزودن محصول خطایی روی داد"
+  },
+  "8108": {
+    "en": "PAYMENT_UPDATED_8108",
+    "fa": "به روز رسانی پرداخت با موفقیت انجام شد"
+  },
+  "8201": {
+    "en": "ORDER_CREATED_SUCCESSFULLY_8201",
+    "fa": "سفارش با موفقیت ایجاد شد"
+  },
+  "8202": {
+    "en": "ORDER_NOT_FOUND_OR_EMPTY_8202",
+    "fa": "سفارش یافت نشد یا فاقد آیتم است"
+  },
+  "8203": {
+    "en": "ORDER_DETAILS_RETRIEVED_SUCCESSFULLY_8203",
+    "fa": "مشخصات سفارش با موفقیت دریافت شد"
+  },
+  "8204": {
+    "en": "ORDER_PAID_FROM_WALLET_8204",
+    "fa": "سفارش از طریق کیف پول پرداخت شد."
+  },
+  "8205": {
+    "en": "ORDER_DOES_NOT_EXIST_8205",
+    "fa": "سفارش مورد نظر وجود ندارد."
+  },
+  "8206": {
+    "en": "WALLET_BALANCE_IS_ZERO_8206",
+    "fa": "سفارش مورد نظر وجود ندارد."
+  },
+  "8207": {
+    "en": "WALLET_AMOUNT_NOT_ENOUGH_8207",
+    "fa": "مقدار کیف پول کافی نیست."
+  },
+  "8208": {
+    "en": "VERIFY_PAYMENT_AND_CHARGE_WALLET_FAILED_8208",
+    "fa": "اعتبارسنجی درگاه و شارژ کیف پول ناموفق بود."
+  },
+  "8209": {
+    "en": "THERE_IS_PURCHASED_PRODUCT_IN_ORDER_8209",
+    "fa": "در سبد خرید شما محصولاتی وجود دارد که قبلا خریداری کرده اید"
+  },
+  "8301": {
+    "en": "MESSAGE_CREATED_SUCCESSFULLY_8301",
+    "fa": "پیام با موفقیت ایجاد شد"
+  },
+  "8302": {
+    "en": "MESSAGE_DELETED_SUCCESSFULLY_8302",
+    "fa": "پیام با موفقیت حذف شد"
+  },
+  "8303": {
+    "en": "NO_MESSAGE_FOUND_FOR_THIS_TICKET_ID_8303",
+    "fa": "هیچ پیامی برای تیکت مورد نظر یافت نشد"
+  },
+  "8304": {
+    "en": "MESSAGE_UPDATED_SUCCESSFULLY_8304",
+    "fa": "پیام ها با موفقیت بروزرسانی شد"
+  },
+  "8305": {
+    "en": "MESSAGE_RETRIEVED_SUCCESSFULLY_8305",
+    "fa": "پیام ها با موفقیت دریافت شد"
+  },
+  "8306": {
+    "en": "MESSAGE_NOT_FOUND_OR_UNAUTHORIZED_8306",
+    "fa": "پیام یافت نشد"
+  },
+  "8307": {
+    "en": "CANNOT_DELETE_MESSAGE_AFTER_ADMIN_RESPONSE_8307",
+    "fa": "امکان حذف پیام پس از پاسخگویی ادمین وجود ندارد"
+  },
+  "8401": {
+    "en": "PRODUCT_ADDED_TO_FAVORITE_SUCCESSFULLY_8401",
+    "fa": "محصول مورد نظر با موفقیت به لیست علاقه مندی ها اضافه شد"
+  },
+  "8402": {
+    "en": "PRODUCT_DELETED_FROM_FAVORITE_SUCCESSFULLY_8402",
+    "fa": "محصول مورد نظر با موفقیت از لیست علاقه مندی ها حذف شد"
+  },
+  "8403": {
+    "en": "FAVORITES_NOT_FOUND_FOR_USER_8403",
+    "fa": "لیست علاقه مندی های کاربر مورد نظر یافت نشد"
+  },
+  "8404": {
+    "en": "FAVORITES_FOUND_FOR_USER_8404",
+    "fa": "لیست علاقه مندی های کاربر مورد نظر یافت شد"
+  },
+  "8501": {
+    "en": "NO_GRADE_FOUND_8501",
+    "fa": "هیچ پایه تحصیلی یافت نشد"
+  },
+  "8502": {
+    "en": "GRADE_LIST_RETRIEVED_SUCCESSFULLY_8502",
+    "fa": "لیست پایه های تحصیلی با موفقیت دریافت شد"
+  },
+  "8601": {
+    "en": "NO_LESSON_FOUND_8601",
+    "fa": "هیچ درسی یافت نشد"
+  },
+  "8602": {
+    "en": "LESSON_LIST_RETRIEVED_SUCCESSFULLY_8602",
+    "fa": "فهرست درس با موفقیت بازیابی شد"
+  },
+  "8701": {
+    "en": "NO_MAJOR_FOUND_8701",
+    "fa": "هیچ رشته ای یافت نشد"
+  },
+  "8702": {
+    "en": "MAJOR_LIST_RETRIEVED_SUCCESSFULLY_8702",
+    "fa": "فهرست رشته ها با موفقیت بازیابی شد"
+  },
+  "8801": {
+    "en": "FACTOR_CREATED_SUCCESSFULLY_8801",
+    "fa": "فاکتور با موفقیت ایجاد شد"
+  },
+  "8802": {
+    "en": "PAYMENT_UNSUCCESSFUL_8802",
+    "fa": "عملیات ایجاد درگاه ناموفق بود"
+  },
+  "8803": {
+    "en": "WE_DONT_HAVE_THIS_AUTHORITY_8803",
+    "fa": "مجوز لازم برای این عملیات وجود ندارد"
+  },
+  "8804": {
+    "en": "PAYMENT_FAILED_8804",
+    "fa": "پرداخت ناموفق بود."
+  },
+  "8805": {
+    "en": "ERROR_CREATING_PAYMENT_8805",
+    "fa": "خطایی در ساخت پرداخت."
+  },
+  "8806": {
+    "en": "PAYMENT_REQUEST_FAILED_8806",
+    "fa": "درخواست سفارش با خطا مواجه شد."
+  },
+  "8807": {
+    "en": "ZARINPAL_RESPONSE_IS_EMPTY_8807",
+    "fa": "پاسخی از سمت زرین پال دریافت نشد."
+  },
+  "8808": {
+    "en": "INVALID_RESPONSE_FROM_ZARINPAL_8808",
+    "fa": "پاسخی نا معتبر از سمت زرین پال دریافت شد."
+  },
+  "8809": {
+    "en": "DIRECT_PAYMENT_FAILED_8809",
+    "fa": "پرداخت مستقیم با خطا مواجه شد."
+  },
+  "8901": {
+    "en": "MUST_PURCHASE_BEFORE_COMMENTING_8901",
+    "fa": "برای کامنت گذاشتن حتما باید محصول را خریده باشید"
+  },
+  "8902": {
+    "en": "COMMENT_CREATED_SUCCESSFULLY_8902",
+    "fa": "کامنت با موفقیت ایجاد شد"
+  },
+  "8903": {
+    "en": "COMMENT_DELETED_SUCCESSFULLY_8903",
+    "fa": "کامنت با موفقیت حذف شد"
+  },
+  "8904": {
+    "en": "NO_COMMENT_FOUND_FOR_THIS_PRODUCT_8904",
+    "fa": "هیچ کامنتی برای این محصول پیدا نشد"
+  },
+  "8905": {
+    "en": "COMMENT_RETRIEVED_SUCCESSFULLY_8905",
+    "fa": "کامنت ها با موفقیت دریافت شد"
+  },
+  "8906": {
+    "en": "COMMENT_NOT_FOUND_8906",
+    "fa": "کامنت یافت نشد."
+  },
+  "8907": {
+    "en": "TEXT_IS_EMPTY_8907",
+    "fa": "متن خالی است."
+  },
+  "8908": {
+    "en": "COMMENT_UPDATED_8908",
+    "fa": "کامنت بروزرسانی شد."
+  },
+  "9001": {
+    "en": "NO_CATEGORY_FOUND_9001",
+    "fa": "دسته بندی ها پیدا نشد"
+  },
+  "9002": {
+    "en": "SUCCESSFULLY_RETRIEVED_LIST_OF_CATEGORIES_9002",
+    "fa": "با موفقیت لیست دسته بندی ها دریافت شد"
+  },
+  "9101": {
+    "en": "DISCOUNT_CODE_IS_REQUIRED_9101",
+    "fa": "وارد کردن کد تخفیف الزامی است"
+  },
+  "9102": {
+    "en": "INVALID_DISCOUNT_CODE_9102",
+    "fa": "کد تخفیف مورد نظر معتبر نیست"
+  },
+  "9103": {
+    "en": "DISCOUNT_CODE_IS_INACTIVE_9103",
+    "fa": "کد تخفیف مورد نظر در حال حاضر فعال نمی باشد"
+  },
+  "9104": {
+    "en": "DISCOUNT_CODE_HAS_EXPIRED_9104",
+    "fa": "مهلت استفاده از کد تخفیف مورد نظر تمام شده است"
+  },
+  "9105": {
+    "en": "DISCOUNT_CODE_HAS_REACHED_USAGE_LIMIT_9105",
+    "fa": "کد تخفیف به حد مجاز مصرف رسیده است"
+  },
+  "9106": {
+    "en": "DISCOUNT_CODE_NOT_VALID_FOR_THIS_USER_9106",
+    "fa": "کد تخفیف مورد نظر برای کاربر مورد نظر معتبر نمی باشد"
+  },
+  "9107": {
+    "en": "VALID_DISCOUNT_CODE_9107",
+    "fa": "کد تخفیف معتبر است"
+  },
+  "9108": {
+    "en": "ALL_DISCOUNTS_RETRIEVED_SUCCESSFULLY_9108",
+    "fa": "کدهای تخفیف دریافت شد."
+  },
+  "9109": {
+    "en": "DISCOUNT_SAVED_SUCCESSFULLY_9109",
+    "fa": "کد تخفیف ذخیره شد."
+  },
+  "9110": {
+    "en": "DISCOUNT_CODE_ALREADY_EXIST_9110",
+    "fa": "این کد تخفیف در حال حاضر موجود است."
+  },
+  "9111": {
+    "en": "DISCOUNT_UPDATED_9111",
+    "fa": "کد تخفیف بروزرسانی شد ."
+  },
+  "9112": {
+    "en": "END_DATE_SHOULD_BIGGER_THAN_START_DATE_9112",
+    "fa": "روز پایان از روز شروع باید بزرگتر باشد ."
+  },
+  "9113": {
+    "en": "DISCOUNT_DELETED_9113",
+    "fa": "کد تخفیف حذف شد ."
+  },
+  "9114": {
+    "en": "NO_ACCESS_USER_FOUND_9114",
+    "fa": "کاربر مورد نظر دسترسی ندارد."
+  },
+  "9115": {
+    "en": "DISCOUNT_HOLDERS_RETRIEVED_SUCCESSFULLY_9115",
+    "fa": "دارندگان کد تخفیف با موفقیت دریافت شد."
+  },
+  "9201": {
+    "en": "FILTER_MENU_REFERENCE_RETRIEVED_SUCCESSFULLY_9201",
+    "fa": "منوی فیلتر با موفقیت بازیابی شد."
+  },
+  "9202": {
+    "en": "NAVBAR_MENU_JSON_TEMPLATE_NOT_FOUND_9202",
+    "fa": "فایل قالب NavbarMenu.json در پوشهٔ bin یافت نشد."
+  },
+  "9203": {
+    "en": "TEMPLATE_LOADED_SUCCESSFULLY_9203",
+    "fa": "قالب با موفقیت بارگذاری شد"
+  },
+  "9302": {
+    "en": "USER_PROFILE_RETRIEVED_SUCCESSFULLY_9302",
+    "fa": "پروفایل حساب کاربری مورد نظر دریافت شد"
+  },
+  "9401": {
+    "en": "SECURE_VIDEO_LINK_RETRIEVED_SUCCESSFULLY_9401",
+    "fa": "لینک ویدیو با موفقیت دریافت شد"
+  },
+  "9402": {
+    "en": "PLAYER_URL_NOT_FOUND_IN_ARVAN_API_RESPONSE_9402",
+    "fa": "لینک ویدیو دریافتی یافت نشد"
+  },
+  "9403": {
+    "en": "APARAT_VIDEO_LINK_RETRIEVED_SUCCESSFULLY_9403",
+    "fa": "لینک ویدیو آپارات دریافت شد."
+  },
+  "9404": {
+    "en": "ARVAN_SECURE_VIDEO_LINK_RETRIEVED_SUCCESSFULLY_9404",
+    "fa": "لینک ویدیو آروان دریافت شد."
+  },
+  "9405": {
+    "en": "VIDEO_CREATED_SUCCESSFULLY_9405",
+    "fa": "ویدیو ساخته شد."
+  },
+  "9406": {
+    "en": "VIDEO_UPDATED_9406",
+    "fa": "ویدیو مورد نظر بروزرسانی شد."
+  },
+  "9407": {
+    "en": "VIDEO_NOT_FOUND_9407",
+    "fa": "ویدیو مورد نظر یافت نشد."
+  },
+  "9408": {
+    "en": "VIDEO_WITH_THIS_LINK_ALREADY_EXIST_9408",
+    "fa": "لینک ویدیو مورد نظر تکراری است."
+  },
+  "9409": {
+    "en": "SELECTED_VIDEO_ALREADY_IN_USE_IN_PRODUCT_9409",
+    "fa": "ویدیو انتخاب شده در یک محصول در حال استفاده شدن است."
+  },
+  "9410": {
+    "en": "VIDEO_SUCCESSFULLY_DELETED_9410",
+    "fa": "ویدیو با موفقیت حذف شد."
+  },
+  "9411": {
+    "en": "COULDNT_DELETE_VIDEO_9411",
+    "fa": "نتوانستیم ویدیو را حذف نماییم."
+  },
+  "9412": {
+    "en": "URL_NOT_FOUND_FOR_APARAT_9412",
+    "fa": "پیوست مورد نظر یافت نشد برای آپارات."
+  },
+  "9413": {
+    "en": "DURATION_NOT_FOUND_IN_APARAT_API_RESPONSE_9413",
+    "fa": "مدت زمان در پاسخ API آپارات یافت نشد."
+  },
+  "9414": {
+    "en": "DURATION_NOT_FOUND_IN_ARVAN_API_RESPONSE_9414",
+    "fa": "مدت زمان در پاسخ API آروان یافت نشد."
+  },
+  "9501": {
+    "en": "CUSTOM_STATUS_CODES_JSON_NOT_FOUND_9501",
+    "fa": "هنگام دریافت کد وضعیت خطایی رخ داد لطفا دوباره تلاش کنید."
+  },
+  "9502": {
+    "en": "STATUS_CODES_LOADED_SUCCESSFULLY_9502",
+    "fa": "کدهای وضعیت با موفقیت بارگذاری شدند"
+  },
+  "9503": {
+    "en": "ERROR_LOADING_STATUS_CODES_9503",
+    "fa": "خطا در بارگیری کدهای وضعیت"
+  },
+  "9601": {
+    "en": "WALLET_DETAIL_RETRIEVED_SUCCESSFULLY_9601",
+    "fa": "جزئیات کیف پول با موفقیت بازیابی شد."
+  },
+  "9602": {
+    "en": "WALLET_TRANSITION_SUCCESSFULLY_9602",
+    "fa": "عملیات مالی با موفقیت انجام شد."
+  },
+  "9603": {
+    "en": "WALLET_TRANSITION_UNSUCCESSFUL_9603",
+    "fa": "عملیات مالی ناموفق بود"
+  },
+  "9604": {
+    "en": "WALLET_NOT_FOUND_9604",
+    "fa": "کیف پول یافت نشد"
+  },
+  "9605": {
+    "en": "WALLET_BALANCE_INSUFFICIENT_9605",
+    "fa": "موجودی کیف پول شما کافی نیست. لطفاً کیف پول خود را شارژ کنید."
+  },
+  "9606": {
+    "en": "WALLET_BALANCE_INSUFFICIENT_9606",
+    "fa": "موجودی کیف پول شما کافی نیست. لطفاً کیف پول خود را شارژ کنید."
+  },
+  "9607": {
+    "en": "WALLET_HAS_BEEN_NOT_CREATED_9607",
+    "fa": "کیف پول ایجاد نشد."
+  },
+  "9608": {
+    "en": "VALUE_MUST_BE_GREATER_THAN_ZERO_9608",
+    "fa": "مقدار باید بزرگتر از صفر باشد."
+  },
+  "9701": {
+    "en": "AUTO_COMPLETE_SEARCH_COMPLETED_SUCCESSFULLY_9701",
+    "fa": "جستجو خودکار با موفقیت انجام شد."
+  },
+  "9801": {
+    "en": "ALL_TEACHERS_RETRIEVED_SUCCESSFULLY_9801",
+    "fa": "لیست تمامی معلم ها دریافت شد."
+  },
+  "9802": {
+    "en": "TEACHER_CREATED_AND_UPLOADED_SUCCESSFULLY_9802",
+    "fa": "معلم مورد نظر با موفقیت ساخته و بارگذاری شد."
+  },
+  "9803": {
+    "en": "TEACHER_ALREADY_EXISTS_9803",
+    "fa": "معلم در حال حاضر وجود دارد."
+  },
+  "9804": {
+    "en": "TEACHER_DOES_NOT_EXIST_9804",
+    "fa": "معلم وجود ندارد."
+  },
+  "9805": {
+    "en": "TEACHER_DATA_UPDATED_9805",
+    "fa": "اطلاعات معلم بروزرسانی شد ."
+  },
+  "9806": {
+    "en": "TEACHER_DELETED_9806",
+    "fa": " معلم حذف شد ."
+  },
+  "9901": {
+    "en": "ALL_CONTENTS_RETRIEVED_SUCCESSFULLY_9901",
+    "fa": "تمامی محتوا ها دریافت شد."
+  },
+  "9902": {
+    "en": "CONTENT_RETRIEVED_SUCCESSFULLY_9902",
+    "fa": "محتوا مورد نظر دریافت شد."
+  },
+  "10003": {
+    "en": "INVALID_PDF_FILE_10003",
+    "fa": "فایل PDF نا معتبر است."
+  },
+  "10004": {
+    "en": "FILE_CREATED_AND_UPLOADED_SUCCESSFULLY_10004",
+    "fa": "فایل مورد نظر با موفقیت ساخته و بارگذاری شد."
+  },
+  "10005": {
+    "en": "FILE_UPLOAD_FAILED_AFTER_SAVING_METADATA_10005",
+    "fa": "بارگذاری فایل پس از ذخیره سازی اطلاعات با خطا مواجه شد. تلاش شد تغییرات به حالت قبل بازگردانده شود."
+  },
+  "10006": {
+    "en": "FILE_UPLOAD_FAILED_AFTER_SAVING_METADATA_10006",
+    "fa": "بارگذاری فایل پس از ذخیره سازی اطلاعات با خطا مواجه شد. تلاش شد تغییرات به حالت قبل بازگردانده شود."
+  },
+  "10101": {
+    "en": "PICTURE_UPLOADED_SUCCESSFULLY_10101",
+    "fa": "تصویر با موفقیت ساخته شد."
+  },
+  "10102": {
+    "en": "PICTURE_UPLOAD_FAILED_10102",
+    "fa": "بارگذاری عکس پس از ذخیره سازی اطلاعات با خطا مواجه شد. تلاش شد تغییرات به حالت قبل بازگردانده شود."
+  },
+  "10103": {
+    "en": "PICTURE_WITH_THIS_URL_ALREADY_EXISTS_10103",
+    "fa": "درحال حاضر یک عکس بای این پسوند وجود دارد."
+  },
+  "10104": {
+    "en": "ERROR_ADDING_PICTURE_10104",
+    "fa": "یک خطای غیر منتظره هنگام افزودن عکس رخ داده است."
+  },
+  "10201": {
+    "en": "APPEARANCE_UPDATED_SUCCESSFULLY_10201",
+    "fa": "مشخصات ظاهری با موفقیت به‌روزرسانی شد"
+  },
+  "10202": {
+    "en": "APPEARANCE_FILE_NOT_FOUND_10202",
+    "fa": "فایل مشخصات ظاهری یافت نشد"
+  },
+  "10203": {
+    "en": "KEY_NOT_FOUND_IN_APPEARANCE_FILE_10203",
+    "fa": "کلید مورد نظر در فایل مشخصات ظاهری یافت نشد"
+  },
+  "10204": {
+    "en": "APPEARANCE_DATA_RETRIEVED_SUCCESSFULLY_10204",
+    "fa": "اطلاعات ظاهر سامانه با موفقیت دریافت شد"
+  },
+  "10205": {
+    "en": "APPEARANCE_CONFIG_REQUIRED_10205",
+    "fa": "تنظیمات ظاهری الزامی است"
+  },
+  "10206": {
+    "en": "CONFIGURATION_NOT_FOUND_10206",
+    "fa": "تنظیمات مورد نظر یافت نشد"
+  },
+  "10207": {
+    "en": "CONFIGURATION_RETURN_SUCCESSFULLY_10207",
+    "fa": "تنظیمات با موفقیت دریافت شد"
+  },
+  "10301": {
+    "en": "ALL_BANNER_RETRIEVED_SUCCESSFULLY_10301",
+    "fa": "تمامی بنر ها دریافت شد."
+  },
+  "10302": {
+    "en": "BANNER_UPLOADED_SUCCESSFULLY_10302",
+    "fa": "بنر با موفقیت ساخته شد."
+  },
+  "10303": {
+    "en": "BANNER_UPLOAD_FAILED_10303",
+    "fa": "بارگذاری بنر پس از ذخیره سازی اطلاعات با خطا مواجه شد. تلاش شد تغییرات به حالت قبل بازگردانده شود."
+  },
+  "10304": {
+    "en": "BANNER_WITH_THIS_NAME_ALREADY_EXSIST_10304",
+    "fa": "بنر با این نام در حال حاضر وجود دارد."
+  },
+  "10401": {
+    "en": "COOPERATION_HAS_BEEN_ADDED_SUCCESSFULLY_10401",
+    "fa": "درخواست با موفقیت ثبت شد."
+  },
+  "10402": {
+    "en": "COOPERATION_HAS_BEEN_NOT_ADDED_SUCCESSFULLY_10402",
+    "fa": "درخواست ثبت نشد."
+  },
+  "10503": {
+    "en": "FEATURE_VALIDATION_FAILED_10503",
+    "fa": "اعتبارسنجی ویژگی با شکست مواجه شد."
+  },
+  "10601": {
+    "en": "SITEMAP_RETRIVED_SUCCESSFULLY_10601",
+    "fa": "نقشه سایت با موفقیت دریافت شد."
+  }
+}

@@ -1,0 +1,24 @@
+User-agent: *
+# صفحات مدیریتی و خصوصی
+Disallow: /admin/
+Disallow: /dashboard/
+Disallow: /login/
+Disallow: /register/
+Disallow: /cart/
+Disallow: /checkout/
+Disallow: /user-profile/
+Disallow: /api/
+Disallow: /temp/
+Disallow: /private/
+
+# فایل‌های غیر ضروری برای ایندکس
+Disallow: /*.pdf$
+Disallow: /*.doc$
+Disallow: /*.xls$
+
+# پارامترهای کم‌ارزش که باعث محتوای تکراری می‌شوند
+Disallow: /*?sort=
+Disallow: /*?SortOrder=
+Disallow: /*?page=
+
+Sitemap: https://set.ir/sitemap.xml

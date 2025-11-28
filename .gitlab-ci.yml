@@ -1,0 +1,40 @@
+stages:
+  - clean
+  - deploy
+  - build-production
+
+clean-job:
+  stage: clean
+  script:
+    - docker builder prune -f
+  tags:
+    - stage
+  rules:
+    - if: '$BUILD_PRODUCTION != "BUILD_PRODUCTION" && $CI_COMMIT_BRANCH == "main"'
+      when: always
+    - when: never
+
+deploy-job:      # This job runs in the deploy stage.
+  stage: deploy  # It only runs when *both* jobs in the test stage complete successfully.
+  script:
+    - cp "$ENV_STAGE" .env
+    - bash script-front.sh
+    - docker image prune -af
+  tags:
+    - stage
+  rules:
+    - if: '$BUILD_PRODUCTION != "BUILD_PRODUCTION" && $CI_COMMIT_BRANCH == "main"'
+      when: always
+    - when: never
+
+build-production:
+  stage: build-production
+  script:
+    - cp "$ENV_PRODUCTION" .env
+    - bash script-front-prod-build.sh
+  tags:
+    - stage
+  rules:
+    - if: '$BUILD_PRODUCTION == "BUILD_PRODUCTION" && $CI_COMMIT_BRANCH == "main"'
+      when: always
+    - when: never

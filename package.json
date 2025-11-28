@@ -1,0 +1,50 @@
+{
+  "name": "front",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "update-status-code-based-on-backend-enum": "cd src/core/services && node convert-backend-enums-to-json.js"
+  },
+  "dependencies": {
+    "@hookform/resolvers": "^5.0.1",
+    "axios": "^1.8.4",
+    "cookies-next": "^5.1.0",
+    "dayjs": "^1.11.13",
+    "framer-motion": "^12.6.3",
+    "jalaliday": "^2.3.0",
+    "lucide-react": "^0.485.0",
+    "next": "^15.3.0",
+    "nextjs-toploader": "^3.8.16",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-hook-form": "^7.55.0",
+    "react-hot-toast": "^2.5.2",
+    "react-intersection-observer": "^9.16.0",
+    "react-leaflet": "^5.0.0",
+    "react-markdown": "^10.1.0",
+    "react-otp-input": "^3.1.1",
+    "react-player": "^2.16.0",
+    "swiper": "^11.2.5",
+    "swr": "^2.3.3",
+    "use-debounce": "^10.0.4",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "critters": "^0.0.23",
+    "eslint": "^9",
+    "eslint-config-next": "15.2.2",
+    "json-server": "^1.0.0-beta.3",
+    "prettier": "^3.6.2",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}
